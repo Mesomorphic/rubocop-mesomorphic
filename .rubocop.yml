@@ -1,0 +1,86 @@
+require:
+  - ./rubocop-custom/stub_env_should_not_return_integer
+  - rubocop-performance
+  - rubocop-rspec
+  - rubocop-rails
+
+RSpec/HookArgument:
+  EnforcedStyle: each
+RSpec/ImplicitExpect:
+  EnforcedStyle: should
+RSpec/ExampleLength:
+  Max: 15
+
+RSpec/InstanceVariable:
+  AssignmentOnly: true
+
+# Metrics
+Metrics/BlockLength:
+  Max: 50
+Metrics/MethodLength:
+  Max: 20
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+Style/MultilineTernaryOperator:
+  Enabled: false
+Style/SingleLineMethods:
+  Enabled: false
+Style/TernaryParentheses:
+  Enabled: false
+Style/NestedTernaryOperator:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
+Style/FormatStringToken:
+  Enabled: false
+Style/UnlessElse:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/SymbolArray:
+  EnforcedStyle: brackets
+Style/BlockDelimiters: # Options here aren't great and result in bad situations either way; needs a closer look
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+Style/NestedParenthesizedCalls:
+  Enabled: false
+
+# Layout
+Layout/LineLength:
+  Max: 140
+Layout/CommentIndentation:
+  Enabled: false
+Layout/SpaceInsideParens:
+  Enabled: false
+Layout/HashAlignment:
+  Enabled: false
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+Layout/ExtraSpacing:
+  Enabled: false
+Layout/SpaceInLambdaLiteral:
+  Enabled: false
+Layout/MultilineBlockLayout:
+  Enabled: false
+Layout/SpaceBeforeFirstArg:
+  Enabled: false
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+Layout/SpaceInsideReferenceBrackets:
+  Enabled: false
+Layout/EmptyLineBetweenDefs:
+  Enabled: false
+Layout/SpaceAroundOperators:
+  Enabled: false
+Layout/SpaceBeforeBlockBraces:
+  Enabled: false
