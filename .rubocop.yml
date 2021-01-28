@@ -42,8 +42,6 @@ Style/UnlessElse:
   Enabled: false
 Style/AsciiComments:
   Enabled: false
-Style/SymbolArray:
-  EnforcedStyle: brackets
 Style/BlockDelimiters: # Options here aren't great and result in bad situations either way; needs a closer look
   Enabled: false
 Style/Documentation:
