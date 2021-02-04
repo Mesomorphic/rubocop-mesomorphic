@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-mesomorphic (0.0.1)
+    rubocop-mesomorphic (0.0.6)
       rubocop (~> 0.89.0)
       rubocop-performance (~> 1.7.0)
       rubocop-rails (~> 2.7.0)

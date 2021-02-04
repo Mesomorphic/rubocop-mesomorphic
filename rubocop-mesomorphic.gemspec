@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "rubocop-mesomorphic"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.6"
   spec.authors       = ["Mesomorphic Ltd"]
 
   spec.summary       = "RuboCop Mesomorphic"
