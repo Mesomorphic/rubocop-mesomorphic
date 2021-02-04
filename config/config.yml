@@ -1,5 +1,5 @@
 require:
-  - ./rubocop-custom/stub_env_should_only_return_string
+  - ../rubocop-custom/stub_env_should_only_return_string
   - rubocop-performance
   - rubocop-rspec
   - rubocop-rails
