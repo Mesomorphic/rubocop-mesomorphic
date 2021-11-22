@@ -28,21 +28,9 @@ Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 Style/MultilineTernaryOperator:
   Enabled: false
-Style/SingleLineMethods:
-  Enabled: false
 Style/TernaryParentheses:
-  Enabled: false
-Style/NestedTernaryOperator:
-  Enabled: false
+  EnforcedStyle: require_parentheses_when_complex
 Style/WordArray:
-  Enabled: false
-Style/FormatStringToken:
-  Enabled: false
-Style/UnlessElse:
-  Enabled: false
-Style/AsciiComments:
-  Enabled: false
-Style/BlockDelimiters: # Options here aren't great and result in bad situations either way; needs a closer look
   Enabled: false
 Style/Documentation:
   Enabled: false
@@ -56,8 +44,6 @@ Style/NestedParenthesizedCalls:
 # Layout
 Layout/LineLength:
   Max: 140
-Layout/CommentIndentation:
-  Enabled: false
 Layout/SpaceInsideParens:
   Enabled: false
 Layout/HashAlignment:
