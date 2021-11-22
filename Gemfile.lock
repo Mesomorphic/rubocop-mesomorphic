@@ -1,11 +1,11 @@
 PATH
   remote: .
   specs:
-    rubocop-mesomorphic (0.2.0)
+    rubocop-mesomorphic (0.2.1)
       rubocop (~> 1.23)
-      rubocop-performance (~> 1.12.0, >= 1.12.0)
-      rubocop-rails (~> 2.12.0, >= 2.12.0)
-      rubocop-rspec (~> 2.6.0, >= 2.6.0)
+      rubocop-performance (~> 1.12, >= 1.12.0)
+      rubocop-rails (~> 2.12, >= 2.12.0)
+      rubocop-rspec (~> 2.6, >= 2.6.0)
 
 GEM
   remote: https://rubygems.org/

@@ -10,7 +10,6 @@ RSpec/ImplicitExpect:
   EnforcedStyle: should
 RSpec/ExampleLength:
   Max: 15
-
 RSpec/InstanceVariable:
   AssignmentOnly: true
 
@@ -20,6 +19,15 @@ Metrics/BlockLength:
 Metrics/MethodLength:
   Max: 20
 
+# Style
+Style/BlockDelimiters:
+  EnforcedStyle: braces_for_chaining
+Style/SingleLineMethods:
+  Enabled: false
+Style/SymbolArray:
+  EnforcedStyle: brackets
+Style/SymbolProc:
+  Enabled: false
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
 Style/TrailingCommaInArrayLiteral:
@@ -67,4 +75,12 @@ Layout/EmptyLineBetweenDefs:
 Layout/SpaceAroundOperators:
   Enabled: false
 Layout/SpaceBeforeBlockBraces:
+  Enabled: false
+
+# Lint
+Lint/SymbolConversion:
+  EnforcedStyle: consistent
+
+# Naming
+Naming/VariableNumber:
   Enabled: false
